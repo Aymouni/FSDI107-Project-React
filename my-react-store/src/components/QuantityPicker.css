@@ -1,0 +1,49 @@
+/* QuantityPicker.jsx: <div className="quantity-picker"> */
+
+.quantity-picker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 12px 16px 16px;
+  margin-top: auto;
+}
+
+.quantity-picker label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.87);
+  min-width: 28px;
+  text-align: center;
+}
+
+.btn-minus,
+.btn-plus {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  font-size: 1.1rem;
+  border-radius: 50%;
+  background-color: #1a1a1a;
+  color: rgba(255, 255, 255, 0.87);
+  border: 1px solid #646cff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s, color 0.2s, transform 0.15s;
+  cursor: pointer;
+}
+
+.btn-minus:hover,
+.btn-plus:hover {
+  background-color: #646cff;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.btn-minus:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+  transform: none;
+  border-color: #555;
+}
