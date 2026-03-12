@@ -12,7 +12,7 @@ function App() {
     
       <div>
         <Navbar />
-        <h1>Hello from React</h1>
+        <h1>Organika Store</h1>
         <Catalog/>
         <Footer/>
       </div>
