@@ -8,18 +8,18 @@ const catalog = [
         "_id":"1" // Unique
     },
     {
-        "title":"Apple",
-        "category":"Fruit",
-        "price":8.99,
-        "image":"apple.png",
-        "_id":"2" // Unique
-    },
-    {
         "title":"Banana",
         "category":"Fruit",
         "price":4.99,
         "image":"banana.png",
         "_id":"4" // Unique
+    },
+    {
+        "title":"Apple",
+        "category":"Fruit",
+        "price":8.99,
+        "image":"apple.png",
+        "_id":"2" // Unique
     },
     {
         "title":"Strawberries",

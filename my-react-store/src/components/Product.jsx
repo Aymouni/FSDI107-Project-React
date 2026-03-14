@@ -23,7 +23,7 @@ function Product(props)
                     <span className="text-muted small">Total: ${total}</span>
                 </div>
                 <div className="mt-auto">
-                    <QuantityPicker onQuantityChange={setQuantity} />;
+                    <QuantityPicker onQuantityChange={setQuantity} />
                 </div>
             </div>
         </div>
